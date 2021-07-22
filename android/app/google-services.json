@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "212754337434",
+    "firebase_url": "https://flutter-production-ef7d2.firebaseio.com",
+    "project_id": "flutter-production-ef7d2",
+    "storage_bucket": "flutter-production-ef7d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212754337434:android:2ab72eaf1e97eef6f7d923",
+        "android_client_info": {
+          "package_name": "com.rajoan.flutterfirebasecrude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212754337434-mk1idu15uq2q58njcqtoc15c2f2asoha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdr_sJHK_J5mZRAUOsQprQFBVqWGo73UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212754337434-mk1idu15uq2q58njcqtoc15c2f2asoha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212754337434:android:170a17de25c9bcf8f7d923",
+        "android_client_info": {
+          "package_name": "com.rajoan.fluttertipcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212754337434-mk1idu15uq2q58njcqtoc15c2f2asoha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdr_sJHK_J5mZRAUOsQprQFBVqWGo73UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212754337434-mk1idu15uq2q58njcqtoc15c2f2asoha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
