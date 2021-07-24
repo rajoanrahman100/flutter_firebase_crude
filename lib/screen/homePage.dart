@@ -23,7 +23,26 @@ class _HomeViewState extends State<HomeView> {
               icon: Icon(Icons.add))
         ],
       ),
-      body: Container(),
+      body: Obx(()=>ListView.builder(
+        itemCount: controller.employees.length,
+        itemBuilder: (_,index){
+          return Card(
+
+            //color: Color(0xff081029),
+            child: ListTile(
+              title: Text(controller.employees[index].name!),
+              subtitle: Text(controller.employees[index].address!),
+              trailing: IconButton(
+                icon: Icon(Icons.delete_forever),
+                onPressed: (){
+                  controller.collectionReference.doc(controller.employees[index].docID).delete();
+                },
+              ),
+              onTap: (){},
+            ),
+          );
+        },
+      )),
     );
   }
 
@@ -75,7 +94,8 @@ class _HomeViewState extends State<HomeView> {
                 ElevatedButton(
                     onPressed: () {
                       controller.saveUpdateEmployee(
-                          controller.nameController.text, controller.addressController.text, docId!, addEditFlag!);
+                          controller.nameController.text, controller.addressController.text,
+                          docId!, addEditFlag!);
                     },
                     child: Text("$text"))
               ],
